@@ -19,10 +19,10 @@ const CTASection = () => {
             <Button asChild size="lg" className="bg-white text-farmer hover:bg-gray-100">
               <Link to="/daftar-petani">Daftar sebagai Petani</Link>
             </Button>
-            <Button asChild size="lg" className="bg-consumer hover:bg-consumer-dark">
+            <Button asChild size="lg" className="bg-consumer hover:bg-consumer-dark text-black">
               <Link to="/daftar-pembeli">Daftar sebagai Pembeli</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+            <Button asChild size="lg" className="bg-white/20 text-white border-2 border-white hover:bg-white hover:text-farmer">
               <Link to="/jadi-ambasador">Jadi Ambasador</Link>
             </Button>
           </div>
