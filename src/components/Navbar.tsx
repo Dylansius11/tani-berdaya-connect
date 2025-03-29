@@ -25,6 +25,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/dc9ed865-eb64-443f-8d95-f5edf6b16a02.png" 
+              alt="TaniTrack Logo" 
+              className="h-10 w-auto mr-2" 
+            />
             <span className="text-farmer text-2xl font-display font-bold">Tani<span className="text-consumer">Track</span></span>
           </Link>
 
@@ -174,6 +179,14 @@ const Navbar = () => {
           </SheetTrigger>
           <SheetContent side="right">
             <div className="flex flex-col gap-6 py-4">
+              <div className="flex items-center mb-4">
+                <img 
+                  src="/lovable-uploads/dc9ed865-eb64-443f-8d95-f5edf6b16a02.png" 
+                  alt="TaniTrack Logo" 
+                  className="h-8 w-auto mr-2" 
+                />
+                <span className="text-farmer text-xl font-display font-bold">Tani<span className="text-consumer">Track</span></span>
+              </div>
               <div className="flex flex-col gap-2">
                 <h2 className="text-lg font-medium">Marketplace</h2>
                 <Link to="/buat-pesanan" className="text-sm text-muted-foreground py-2">Buat Pesanan</Link>

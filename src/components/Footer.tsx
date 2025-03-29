@@ -10,7 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and description */}
           <div className="mb-6">
-            <Link to="/" className="inline-block mb-4">
+            <Link to="/" className="inline-block mb-4 flex items-center">
+              <img 
+                src="/lovable-uploads/dc9ed865-eb64-443f-8d95-f5edf6b16a02.png" 
+                alt="TaniTrack Logo" 
+                className="h-10 w-auto mr-2" 
+              />
               <h2 className="text-2xl font-display font-bold">Tani<span className="text-consumer-light">Track</span></h2>
             </Link>
             <p className="text-gray-200 mb-4">
@@ -95,7 +100,7 @@ const Footer = () => {
                 />
                 <button 
                   type="submit"
-                  className="bg-consumer text-white font-medium rounded-md px-4 py-2 transition-colors hover:bg-consumer-dark"
+                  className="bg-consumer text-black font-medium rounded-md px-4 py-2 transition-colors hover:bg-consumer-dark"
                 >
                   Berlangganan
                 </button>

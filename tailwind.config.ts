@@ -63,16 +63,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for TaniTrack
+				// Updated colors for TaniTrack based on the logo
 				farmer: {
-					DEFAULT: '#3B7A57', // Forest Green
-					light: '#88B378',
-					dark: '#2C5F44',
+					DEFAULT: '#0A4B53', // Dark teal from logo
+					light: '#84C341', // Light green from logo
+					dark: '#083C42', // Darker teal
 				},
 				consumer: {
-					DEFAULT: '#F3A505', // Golden Yellow
-					light: '#FFD06F',
-					dark: '#DB8A00',
+					DEFAULT: '#F5C936', // Golden yellow from logo
+					light: '#F7D65A', // Lighter yellow
+					dark: '#D4A913', // Darker yellow
 				},
 				indonesia: {
 					red: '#FF0000', // Indonesian flag red

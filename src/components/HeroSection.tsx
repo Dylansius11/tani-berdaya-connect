@@ -19,16 +19,21 @@ const HeroSection = () => {
               TaniTrack menghubungkan petani langsung dengan pembeli untuk mengeliminasi tengkulak, meningkatkan kesejahteraan petani, dan menjamin kualitas produk pertanian.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button asChild size="lg" className="bg-farmer hover:bg-farmer-dark">
+              <Button asChild size="lg" className="bg-farmer hover:bg-farmer-dark text-white">
                 <Link to="/buat-pesanan">Buat Pesanan</Link>
               </Button>
-              <Button asChild size="lg" className="bg-consumer hover:bg-consumer-dark">
+              <Button asChild size="lg" className="bg-consumer hover:bg-consumer-dark text-black font-medium">
                 <Link to="/jual-hasil-panen">Jual Hasil Panen</Link>
               </Button>
             </div>
           </div>
           <div className="relative">
-            <div className="relative z-10 bg-white p-4 md:p-6 rounded-lg shadow-lg animate-fade-in">
+            <div className="relative z-10 bg-white p-4 md:p-6 rounded-lg shadow-lg animate-fade-in flex flex-col items-center">
+              <img 
+                src="/lovable-uploads/dc9ed865-eb64-443f-8d95-f5edf6b16a02.png" 
+                alt="TaniTrack Logo" 
+                className="w-40 h-auto mb-6" 
+              />
               <img 
                 src="https://images.unsplash.com/photo-1501854140801-50d01698950b" 
                 alt="Petani Indonesia" 
